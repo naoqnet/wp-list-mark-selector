@@ -1,0 +1,20 @@
+/* List Marker Settings Panel Styles */
+.list-marker-settings-panel {
+    /* Panel specific styles can be added here if needed */
+}
+
+.list-marker-settings-content {
+    padding: 8px 0;
+}
+
+.list-marker-settings-content p {
+    margin: 0;
+    padding: 8px 0;
+    color: #666;
+    font-size: 13px;
+}
+
+/* Ensure the panel appears above the Advanced settings */
+.components-panel .list-marker-settings-panel {
+    order: -1;
+}
